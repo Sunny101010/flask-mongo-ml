@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<ul>
+    {% for rtdata in rtdatas %}
+    <li><p>{{rtdata}}</p> 
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
